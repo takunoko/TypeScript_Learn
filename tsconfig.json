@@ -1,5 +1,9 @@
 {
     "compilerOptions": {
+        "baseUrl": "./ts/",
+        "paths": {
+            "@/*": ["*"]
+        },
         "target": "es5",
         "module": "commonjs",
         "outDir": "./dist",
@@ -10,4 +14,3 @@
         "./ts/**/*.ts"
     ]
 }
-
